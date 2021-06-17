@@ -7,7 +7,7 @@ namespace unicode2utf8
 
 		static void Main(string[] args)
 		{
-			string unicode = "fuck you";//"7176";
+			string unicode = "7176";
 			uint uni_num = (uint)int.Parse(unicode, System.Globalization.NumberStyles.HexNumber);
 			uint utf = 0;
             const uint SINGLE = 0x7F;
